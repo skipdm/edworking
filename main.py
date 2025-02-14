@@ -5,9 +5,20 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from passlib.hash import bcrypt
 from datetime import date
+from fastapi.middleware.cors import CORSMiddleware
+from typing import Optional
 
 # Инициализация FastAPI
 app = FastAPI()
+
+# Разрешаем запросы с фронтенда
+app.add_middleware( # type: ignore
+    CORSMiddleware,
+    allow_origins=["*"],  # Можно указать ["http://localhost:5173"] для безопасности
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Настройка базы данных
 DATABASE_URL = "sqlite:///./users.db"
@@ -38,7 +49,7 @@ class UserCreate(BaseModel):
     name: str  # Имя пользователя (обязательное поле)
     birth_date: date  # Дата рождения (обязательное поле)
     city: str # Город пользователя (обязательное поле)
-    about: str | None = None  # Поле "О себе" необязательное
+    about: Optional[str] = None  # Поле "О себе" необязательное
 
 # Зависимость для сессии базы данных
 def get_db():
@@ -53,6 +64,7 @@ hash_password = lambda password: bcrypt.hash(password)
 get_user_by_email = lambda db, email: db.query(User).filter(User.email == email).first()
 get_user_by_tg_id = lambda db, tg_id: db.query(User).filter(User.tg_id == tg_id).first()
 generate_message = lambda user_id: f"User with ID {user_id} registered successfully"
+
 
 @app.post("/register")
 async def register_user(user: UserCreate, db: Session = Depends(get_db)):
@@ -76,4 +88,4 @@ async def register_user(user: UserCreate, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(new_user)
 
-    return {"message": generate_message(new_user.id), "user_id": new_user.id}
+    return {"message": generate_message(new_user.id), "user_id": new_user.id, "user_tg_id": new_user.tg_id}
