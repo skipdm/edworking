@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="446a519e-ce8c-48f1-b015-37f2b9b0a38a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/edworking-monorepo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/edworking-monorepo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/users/UserDao.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/users/UserDao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/users/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/users/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/users/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/users/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/HomePage/ui/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/HomePage/ui/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/LoginPage/ui/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/LoginPage/ui/LoginPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/ProfilePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/ProfilePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/ProfilePage/ui/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/ProfilePage/ui/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SwiperPage/ui/SwiperPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/SwiperPage/ui/SwiperPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/dCurrProfile.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/dCurrProfile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/mockPosts.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/mockPosts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2urr7EBmzUdfaXmfljeWYd5822V" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Debug",
+    "Python.router.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "skipin",
+    "last_directory_selection": "/home/skip/edworking-monorepo/backend/.venv",
+    "last_opened_file_path": "/home/skip/Загрузки/ai-qa-backend-main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/backend/.venv" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="446a519e-ce8c-48f1-b015-37f2b9b0a38a" name="Changes" comment="" />
+      <created>1743017367241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743017367241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/posts/dao.py</url>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>223</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/src/users/router.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
