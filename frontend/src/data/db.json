@@ -1,0 +1,65 @@
+{
+  "profiles": [
+    {
+      "id": "cat001",
+      "name": "cat",
+      "email": "cat@cat.com",
+      "image": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg",
+      "bio": "Люблю котов",
+      "city": "Москва",
+      "profession": "Разработчик",
+      "pic": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Guy",
+      "email": "guy@example.com",
+      "image": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg",
+      "bio": "Гуру маркетинга и кофе",
+      "city": "Санкт-Петербург",
+      "profession": "Маркетолог",
+      "pic": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Dude",
+      "email": "dude@example.com",
+      "image": "https://i0.wp.com/catonsvillecatclinic.com/wp-content/uploads/2020/04/kitten-1285341_640.jpg?resize=500%2C330&ssl=1",
+      "bio": "Мечтаю сделать мир лучше",
+      "city": "Новосибирск",
+      "profession": "UX-дизайнер",
+      "pic": "https://i0.wp.com/catonsvillecatclinic.com/wp-content/uploads/2020/04/kitten-1285341_640.jpg?resize=500%2C330&ssl=1"
+    },
+    {
+      "id": "3",
+      "name": "Ben",
+      "email": "ben@example.com",
+      "image": "https://www.cats.org.uk/media/9221/bran.jpg?width=500&height=330.4146278650528",
+      "bio": "Программист-одиночка",
+      "city": "Екатеринбург",
+      "profession": "Тестировщик",
+      "pic": "https://www.cats.org.uk/media/9221/bran.jpg?width=500&height=330.4146278650528"
+    },
+    {
+      "id": "1740212646586",
+      "name": "someone",
+      "email": "someone@someone",
+      "image": "https://via.placeholder.com/150",
+      "bio": "Анализирую.",
+      "city": "Казань",
+      "profession": "Аналитик",
+      "pic": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "1740242918957",
+      "name": "evelina",
+      "email": "evelina@evelina",
+      "image": "https://travelandia.ru/data/n03-34-311619094871-6748.jpg",
+      "bio": "Помогите",
+      "city": "Уфа",
+      "profession": "Бэкэнд-разработчик",
+      "pic": "https://travelandia.ru/data/n03-34-311619094871-6748.jpg"
+    }
+  ]
+}
+

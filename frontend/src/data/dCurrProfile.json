@@ -1,0 +1,16 @@
+{
+  "profile": [
+    {
+      "id": "cat001",
+      "name": "cat",
+      "email": "cat@cat.com",
+      "image": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg",
+      "bio": "i'm a cat",
+      "city": "Уфа",
+      "profession": "cat",
+      "pic": "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+    }
+  ]
+}
+
+  
